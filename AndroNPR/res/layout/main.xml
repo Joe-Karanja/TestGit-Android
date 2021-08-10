@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:id="@+id/widget28"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+android:background="#7FFF00"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<ListView
+android:id="@+id/myListView"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+>
+</ListView>
+</LinearLayout>

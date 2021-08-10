@@ -1,0 +1,59 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   
+     <item
+        android:id="@+id/table"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="L.Table"/>
+     
+      <item
+        android:id="@+id/uefa"
+        android:icon="@drawable/eufa"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="UEFA"/>
+      
+      <item
+        android:id="@+id/facup"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="FA Cup"/>
+     
+     
+     
+     <item
+        android:id="@+id/updates"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Updates"/>
+     
+     
+     
+     
+     <item
+        android:id="@+id/live"
+        android:icon="@drawable/fa"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Live scores"/>
+     
+     <item
+        android:id="@+id/transfers"
+        android:icon="@drawable/fa"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Transfers"/>
+     
+     <item
+        android:id="@+id/fixture"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Fixtures"/>
+     
+     
+     
+     
+     
+
+</menu>

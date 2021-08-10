@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Advat</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_product_registration_portal">ProductRegistrationPortal</string>
+    <string name="title_activity_product_search">ProductSearch</string>
+    <string name="title_activity_search_product">SearchProduct</string>
+    <string name="title_activity_category_search">CategorySearch</string>
+    <string name="title_activity_selling_tips">SellingTips</string>
+    <string name="title_activity_selling_buying_tips">SellingBuyingTips</string>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.advaapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/adva"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.advaapp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.advaapp.ProductRegistrationPortal"
+            android:label="@string/title_activity_product_registration_portal" >
+        </activity>
+        <activity
+            android:name="com.example.advaapp.ProductSearch"
+            android:label="@string/title_activity_product_search" >
+        </activity>
+        <activity
+            android:name="com.example.advaapp.SearchProduct"
+            android:label="@string/title_activity_search_product" >
+        </activity>
+        <activity
+            android:name="com.example.advaapp.CategorySearch"
+            android:label="@string/title_activity_category_search" >
+        </activity>
+        <activity
+            android:name="com.example.advaapp.SellingTips"
+            android:label="@string/title_activity_selling_tips" >
+        </activity>
+        <activity
+            android:name="com.example.advaapp.SellingBuyingTips"
+            android:label="@string/title_activity_selling_buying_tips" >
+        </activity>
+    </application>
+
+</manifest>
